@@ -145,10 +145,10 @@ console.log(babyOne);
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window Binding: If no other rules exist, "this" will bind to the window console.
+  2. Implicit Binding: Look to the left of the dot to see what "this" is binding to.
+  3. Explicit Binding: "this" is explicitly defined whenever we use .call() or .apply().
+  4. New Binding: "this" is binded when we use constructor functions.
 */
 
 
